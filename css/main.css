@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "chocoleta";
+  src: url("../fonts/chocoleta.otf");
+}
+
+@font-face {
+  font-family: "gotham_black";
+  src: url("../fonts/Gotham-Black.otf");
+}
+
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "gotham_black";
+
+	background: #f1ac48 url('../img/erika_bg.png') no-repeat left fixed;
+	background-size: cover; /* version standardisée */
+
+}
+
+h2 {
+	font-family: "chocoleta";
+	font-size: 145px;
+}
+
+
+.content {
+	text-align: center;
+	display: inline-block;
+	width: 500px;
+	height: 500px;
+
+    overflow: visible;
+    color :red;
+   
+}
+
