@@ -91,6 +91,19 @@ h2 {
 	letter-spacing: 10px;
 }
 
+.apoSign {
+	width: 500px;
+	height: 367px;
+
+	background: url('../img/apo_sign.png') no-repeat;
+	background-position: center;
+	background-size: 55%;
+
+
+
+
+}
+
 
 h3{
 	font-family: "chocoleta";
@@ -101,12 +114,14 @@ h3{
 
 .content {
 	position: fixed;
+	top: 10%;
 	z-index: 3;
 	display: block;
-	width: 100%;
+	width: 500px;
 	height: 100%;
-	right: -23vw;
+	right: 12vw;
 	color: #3c3c3c;
+	opacity: 0;
 
 	opacity:0;  
 	animation:mainWording, cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -139,6 +154,10 @@ h2, h3, h4, p {
 	text-align: center;
 }
 
+h4{
+	margin-top: 30px;
+}
+
 .icons {
 	margin-left: auto;
 	margin-right: auto;
@@ -154,6 +173,7 @@ a{
 	color: #ffe5c9;
 }
 
+/*
 a:hover:before {
 	content: '';
 	position: absolute;
@@ -164,7 +184,7 @@ a:hover:before {
 	left: 0;
 	color: red;
 }
-
+*/
 
 /* GRAND ECRANS ************************/
 
@@ -194,10 +214,21 @@ a:hover:before {
     to { opacity:1; background-position: 10% 30%; } 
 }
 
+@keyframes ArturoPerezOrts { 
+
+    from { opacity:0; left: 300px; } 
+    to { opacity:0.5; left:0; } 
+}
+
 .erika {
 	background-size:60%;
 	background-position:10% 50%;
 		
+	}
+
+	.content {
+		right: 5vw;
+
 	}
 }
 
